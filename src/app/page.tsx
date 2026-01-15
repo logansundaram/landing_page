@@ -15,7 +15,7 @@ export default function Home() {
               Transparent AI Democratized.
             </h1>
             <p>
-              AI that brings an unparallel level of transparency, robustness, and flexiblity.
+              AI that brings an unparalleled level of transparency, robustness, and flexiblity.
             </p>
           </div>
         </div>
