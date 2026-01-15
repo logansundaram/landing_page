@@ -27,18 +27,18 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased w-full`}>
 
-        <header className="flex w-full place-content-between fixed bg-zinc-50">
+        <header className="flex w-full h-20 place-content-between fixed bg-zinc-50">
           <div>
-            <Link href="/" className="flex p-8">
+            <Link href="/" className="flex p-8 link">
                 Saturday.ai
             </Link>
           </div>
             <div className="gap-5 flex p-8">
-              <Link href="/about">
+              <Link href="/about" className="link">
                 About
               </Link>
               <h1>
-              <Link href="/contact">
+              <Link href="/contact" className="link">
                 Contact
               </Link>
               </h1>
@@ -46,6 +46,37 @@ export default function RootLayout({
         </header>
 
         {children}
+
+
+        <footer className="flex text-xs justify-center w-full p-8 gap-16 bg-zinc-50">
+          <div>
+            <Link href="/contact">
+                Contact
+            </Link>
+            <p>
+              Email: saturday_ai@gmail.com
+            </p>
+          </div>
+
+          <div>
+            <Link href="/about">
+                About
+            </Link>
+            <p>
+              Saturday.ai
+            </p>
+          </div>
+
+           <div>
+            <h1>
+              © 2026 Saturday AI
+            </h1>
+            <p>
+              All rights reserved
+            </p>
+          </div>
+
+        </footer>
       </body>
     </html>
   );

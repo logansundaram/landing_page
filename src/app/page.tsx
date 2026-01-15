@@ -9,10 +9,15 @@ export default function Home() {
 
       <main>
 
-        <div className="flex h-100 w-full justify-center items-center">      
-        <h1 className="text-4xl">
-            Transparent AI Democratized.
-          </h1>
+        <div className="flex h-100 w-full justify-center items-center p-8 pt-25">      
+          <div>
+            <h1 className="text-9xl text-blue-900">
+              Transparent AI Democratized.
+            </h1>
+            <p>
+              AI that brings an unparallel level of transparency, robustness, and flexiblity.
+            </p>
+          </div>
         </div>
 
         <div className="grid grid-cols-3 gap-8 p-8">
@@ -57,44 +62,21 @@ export default function Home() {
 
         <div className="w-full h-125 justify-center flex items-center">
           <div>
-            <p className="text-5xl">
-              Coming Soon. Summer 2026.
-            </p>
+            <div className="flex gap-2">
+              <p className="text-5xl">
+                Coming Soon.    
+              </p>
+              <p className="text-5xl text-blue-900">
+                Summer 2026.
+              </p>
+            </div>
             <p>
               Sign up for updates.
             </p>
           </div>
         </div>
 
-        <footer className="flex text-xs justify-center w-full p-8 gap-16">
-          <div>
-            <h1>
-              Contact
-            </h1>
-            <p>
-              Email: saturday_ai@gmail.com
-            </p>
-          </div>
-
-          <div>
-            <h1>
-              About
-            </h1>
-            <p>
-              Saturday.ai
-            </p>
-          </div>
-
-           <div>
-            <h1>
-              © 2026 Saturday AI
-            </h1>
-            <p>
-              All rights reserved
-            </p>
-          </div>
-
-        </footer>
+        
       
       </main>
     </div>
