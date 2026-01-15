@@ -5,21 +5,7 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-50 font-sans dark:bg-black">
 
 
-      <header className="flex w-full place-content-between fixed bg-zinc-50">
-        <div>
-          <h1 className="p-8">
-            Saturday.ai
-          </h1>
-        </div>
-        <div className="gap-5 flex p-8">
-          <h1>
-            About
-          </h1>
-          <h1>
-            Contact
-          </h1>
-        </div>
-      </header>
+
 
       <main>
 
