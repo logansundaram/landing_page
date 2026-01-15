@@ -4,7 +4,7 @@ export default function Home() {
       <main>
 
         <div className="grid h-150 w-full justify-center items-center grid-cols-2">      
-          <h1 className="text-4xl justify-center flex text-blue-900">
+          <h1 className="text-9xl justify-center flex text-blue-900 p-8">
             About: Saturday.ai
           </h1>
           <p className="p-8">

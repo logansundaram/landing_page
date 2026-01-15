@@ -12,11 +12,10 @@ export default function Home() {
         <div className="flex h-100 w-full justify-center items-center p-8 pt-25">      
           <div>
             <h1 className="text-9xl text-blue-900">
-              Transparent AI Democratized.
+              Transparent AI. Democratized.
             </h1>
             <p>
-              AI that brings an unparalleled level of transparency, robustness, and flexiblity.
-            </p>
+              AI designed for transparency, robustness, and flexibility.            </p>
           </div>
         </div>
 
