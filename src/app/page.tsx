@@ -56,14 +56,19 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-24 grid grid-cols-2 gap-x-12">
+      <div className="p-24 grid grid-cols-2 gap-x-12 ">
         <div className="flex items-center h-full">
-          <h1 className="w-full text-6xl text-blue-900">
-            How Saturday.ai works
-          </h1>
+          <div>
+            <h1 className="w-full text-6xl text-blue-900">
+              How Saturday.ai works
+            </h1>
+            <p>
+              Explicit structure at every stage of the process.
+            </p>
+          </div>
         </div>
 
-        <div className="grid grid-rows-4 gap-y-4">
+        <div className="grid grid-rows-4 gap-y-4 justify-center">
 
           <div className="flex gap-2">
             <p className="font-bold">
