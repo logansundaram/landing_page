@@ -5,7 +5,7 @@ export default function Home() {
 
       <div className="flex w-full justify-center items-center p-12 pt-40 pb-20">      
         <div>
-          <h1 className="text-9xl text-blue-900 animate-[fadeUp_0.5s_ease-out_forwards]">
+          <h1 className="text-9xl opacity-0 text-blue-900 animate-[fadeUp_0.5s_ease-out_forwards]">
             Transparent AI Democratized.
           </h1>
           <p className="opacity-0 animate-[fadeUp_0.7s_ease-out_forwards] [animation-delay:500ms]">
@@ -56,15 +56,74 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-24">
-        <h1 className="w-full text-center text-2xl">
-          An AI agent that actually works.
-        </h1>
-        <p className="text-center">
-          AI shouldn’t require giving up ownership of your data. Saturday.ai is a local-first AI platform designed to keep your models, workflows, and knowledge exactly where they belong, on your machine and under your control. By default, everything runs locally, preserving privacy, reducing latency, and eliminating unnecessary dependence on centralized infrastructure.
+      <div className="p-24 grid grid-cols-2 gap-x-12">
+        <div className="flex items-center h-full">
+          <h1 className="w-full text-6xl text-blue-900">
+            How Saturday.ai works
+          </h1>
+        </div>
 
-          At the same time, Saturday.ai is built to grow with you. When collaboration, shared compute, or broader deployment becomes necessary, the platform provides a seamless path to scale without forcing lock-in or compromising your principles. Whether you’re experimenting alone, building internal tools, or preparing production-ready systems, Saturday.ai adapts to your needs while keeping ownership firmly in your hands.        
-        </p>
+        <div className="grid grid-rows-4 gap-y-4">
+
+          <div className="flex gap-2">
+            <p className="font-bold">
+              01
+            </p>
+            <div>
+              <p className="">
+                Compile the task
+              </p>
+              <p>
+                Intent becomes an explicit workflow.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex gap-2">
+            <p className="font-bold">
+              02
+            </p>
+            <div>
+              <p className="">
+                Execute locally
+              </p>
+              <p>
+                Computation runs where your data lives.
+              </p>
+            </div>
+          </div>
+
+
+          <div className="flex gap-2">
+            <p className="font-bold">
+              03
+            </p>
+            <div>
+              <p className="">
+                Inspect and verify
+              </p>
+              <p>
+                Every decision is visible.
+              </p>
+            </div>
+          </div>
+
+
+          <div className="flex gap-2">
+            <p className="font-bold">
+              04
+            </p>
+            <div>
+              <p className="">
+                Improve the workflow
+              </p>
+              <p>
+                Systems evolve without losing control.
+              </p>
+            </div>
+          </div>
+
+        </div>
       </div>
 
       
