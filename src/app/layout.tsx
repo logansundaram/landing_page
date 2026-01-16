@@ -24,10 +24,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-zinc-50">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased w-full`}>
 
-        <header className="flex w-full h-20 place-content-between fixed bg-zinc-50">
+        <header className="flex w-full h-20 place-content-between fixed z-50">
           <div>
             <Link href="/" className="flex p-8 link">
                 Saturday.ai

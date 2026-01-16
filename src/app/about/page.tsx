@@ -13,7 +13,7 @@ export default function Home() {
                 Our Approach
               </h1>
               <p className="text-blue-900">
-                How we think about building AI
+                How we think about building AI applications
               </p>
             </div>
             <p className="pb-2">
@@ -27,16 +27,21 @@ export default function Home() {
 
 
         <div className="pb-40">
-          <h1 className="text-6xl p-8">
-            The Team
-          </h1>
+          <div className="p-8">
+            <h1 className="text-6xl">
+              The Team
+            </h1>
+            <p className="">
+              Built by engineers at Michigan and Berkeley
+            </p>
+          </div>
           <div className="grid grid-cols-3 p-8 gap-x-8">
               <div>
                 <h1 className="text-blue-900 font-bold">
                   Founding Engineers
                 </h1>
                 <p>
-                  A small team of engineers focused on building transparent, local-first AI systems from first principles. Founded by Logan Sundaram, Saturday.ai grew from a desire to apply AI in domains where privacy, robustness, and accountability are critical.
+                  A small team from Berkeley and Michigan focused on building transparent, local-first AI systems. Founded by Logan Sundaram, Saturday.ai grew from a desire to apply AI in domains where privacy, robustness, and accountability are critical.
                 </p>
               </div>
 
