@@ -4,14 +4,63 @@ export default function Home() {
       <main>
 
         <div className="grid h-150 w-full justify-center items-center grid-cols-2">      
-          <h1 className="text-9xl justify-center flex text-blue-900 p-8">
-            About: Saturday.ai
+          <h1 className="text-9xl justify-center flex text-blue-900 p-8 animate-[revealLeft_1.2s_ease-out_forwards] [animation-delay:200ms] opacity-0">
+            About Saturday.ai
           </h1>
-          <p className="p-8">
-            We’re building AI systems that are understandable, auditable, and designed to work with you, not around you.
+          <div className="p-8">
+            <div className="pb-2">
+              <h1 className="font-bold text-l">
+                Our Approach
+              </h1>
+              <p className="text-blue-900">
+                How we think about building AI
+              </p>
+            </div>
+            <p className="pb-2">
+              We’re building AI systems that are understandable, auditable, and designed to work with you—not around you. In a world where AI is increasingly opaque and centralized, we believe powerful intelligence should be traceable, controllable, and locally deployable.
+            </p>
+            <p>
+              Our work focuses on creating modular AI workflows that users can inspect, customize, and trust, whether they’re running on a laptop, workstation, or private infrastructure.
+            </p>
+          </div>
+        </div>
 
-            In a world where AI is increasingly opaque and centralized, we believe powerful intelligence should be traceable, controllable, and locally deployable. Our work focuses on creating modular AI workflows that users can inspect, customize, and trust, whether they’re running on a laptop, workstation, or private infrastructure.
-          </p>
+
+        <div className="pb-40">
+          <h1 className="text-6xl p-8">
+            The Team
+          </h1>
+          <div className="grid grid-cols-3 p-8 gap-x-8">
+              <div>
+                <h1 className="text-blue-900 font-bold">
+                  Founding Engineers
+                </h1>
+                <p>
+                  A small team of engineers focused on building transparent, local-first AI systems from first principles. Founded by Logan Sundaram, Saturday.ai grew from a desire to apply AI in domains where privacy, robustness, and accountability are critical.
+                </p>
+              </div>
+
+              <div>
+                <h1 className="text-blue-900 font-bold">
+                  Research & Systems Design
+                </h1>
+                <p>
+                  Experience across systems design, agentic workflows, and applied machine learning, informed by academic research and real-world constraints.
+                </p>
+
+              </div>
+
+              <div>
+                <h1 className="text-blue-900 font-bold">
+                  Early-Stage Exploration 
+                </h1>
+                <p>
+                  Actively exploring how explicit structure and evaluation can make AI systems more reliable, understandable, and versatile over time.
+                </p>
+
+              </div>
+          </div>
+
         </div>
       
       </main>
