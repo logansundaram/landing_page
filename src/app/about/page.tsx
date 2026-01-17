@@ -3,10 +3,15 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-50 font-sans dark:bg-black">
       <main>
 
-        <div className="grid h-150 w-full justify-center items-center grid-cols-2">      
-          <h1 className="text-9xl justify-center flex text-blue-900 p-8 animate-[revealLeft_1.2s_ease-out_forwards] [animation-delay:200ms] opacity-0">
-            About Saturday.ai
-          </h1>
+        <div className="grid h-150 w-full justify-center items-center grid-cols-2">
+          <div className="p-8">
+            <h1 className="text-9xl text-blue-900">
+              About 
+            </h1>
+            <h1 className="text-9xl text-blue-900 animate-[revealLeft_1s_ease-out_forwards] [animation-delay:150ms] opacity-0">
+              Saturday.ai
+            </h1>
+          </div>      
           <div className="p-8">
             <div className="pb-2">
               <h1 className="font-bold text-l">

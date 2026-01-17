@@ -139,7 +139,7 @@ export default function Home() {
             <p className="text-5xl">
               Coming Soon.    
             </p>
-            <p className="text-5xl text-blue-900 animate-[revealLeft_1.2s_ease-out_forwards] [animation-delay:150ms] opacity-0">
+            <p className="text-5xl text-blue-900 animate-[revealLeft_1.2s_ease-out_forwards] [animation-delay:2s] opacity-0">
               Summer 2026.
             </p>
           </div>
