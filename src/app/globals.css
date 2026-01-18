@@ -45,14 +45,12 @@ body {
 
 @keyframes revealLeft {
   from {
-    clip-path: inset(0 85% 0 0);
-    opacity: 0.85;
-    transform: translateX(6px);
+    clip-path: inset(0 92% 0 0);
+    opacity: 0.9;
   }
   to {
     clip-path: inset(0 0 0 0);
     opacity: 1;
-    transform: translateX(0);
   }
 }
 
